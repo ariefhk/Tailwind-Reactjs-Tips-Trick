@@ -15,6 +15,7 @@ npx tailwindcss init -p
 ### 2. Tambahkan settingan di tailwind.config.js
 ```
 module.exports = {
+  darkMode: "class",
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
